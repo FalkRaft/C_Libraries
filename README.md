@@ -4,7 +4,7 @@ This is the where my C libraries are stored and shared. You can use these files 
 
 To download the header files, navigate to the header file you want and click on the icon to download it.
 Such files include: [emath.h](https://github.com/FalkRaft/C_Libraries/blob/main/README.md#emathh).
-# emath.h
+# [emath.h](https://github.com/FalkRaft/C_Libraries/blob/main/C_Libraries/emath.h)
  • This is where the basic and advanced math functions (excluding math.h functions) are written in.
  • Those functions for example are:
    - Area of a Circle (areacirc(long double radius))
