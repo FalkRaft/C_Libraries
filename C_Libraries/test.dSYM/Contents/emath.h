@@ -57,3 +57,11 @@ long double volcuboid(long double length, long double width, long double height)
 long double voltriprism(long double length, long double width, long double height){
     return (length * width * height) / 2;
 }
+
+long double areasphere(long double radius){
+    return 4 * (pi * pow(radius, 2));
+}
+
+long double volsphere(long double radius){
+    return 4/3 * (pi * pow(radius, 3);
+}
