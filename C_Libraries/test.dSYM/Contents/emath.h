@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//Basic math functions
+// Basic math functions
 
 long double add(long double x, long double y){
     return x + y;
@@ -19,9 +19,9 @@ long double divide(long double x, long double y){
 }
 
 
-//Complex math functions
+// Complex math functions
 
-long double pi = 3.141592;
+long double pi = 3.1415926535897932384626433832795029;
 
 #include <stdlib.h>
 #include <math.h>
