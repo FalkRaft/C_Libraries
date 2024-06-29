@@ -2,58 +2,58 @@
 
 //Basic math functions
 
-double add(double x, double y){
+long double add(long double x, long double y){
     return x + y;
 }
 
-double subt(double x, double y){
+long double subt(long double x, long double y){
     return x - y;
 }
 
-double mult(double x, double y){
+long double mult(long double x, long double y){
     return x * y;
 }
 
-double divide(double x, double y){
+long double divide(long double x, long double y){
     return x / y;
 }
 
 
 //Complex math functions
 
-double pi = 3.141592;
+long double pi = 3.141592;
 
 #include <stdlib.h>
 #include <math.h>
 
-double pytheo(double x, double y){
+long double pytheo(long double x, long double y){
     return sqrt(pow(x, 2) + pow(y, 2));
 }
 
-double volcylin(double radius, double height){
+long double volcylin(long double radius, long double height){
     return pi * pow(radius, 2) * height;
 }
 
-double areacylin(double radius, double height){
+long double areacylin(long double radius, long double height){
     return (pi * pow(radius, 2) * 2) + (pi * (radius * 2) * height);
 }
 
-double areacirc(double radius){
+long double areacirc(long double radius){
     return pi * pow(radius, 2);
 }
 
-double arearect(double corner1, double corner2){
+long double arearect(long double corner1, long double corner2){
     return corner1 * corner2;
 }
 
-double areatri(double corner1, double corner2){
+long double areatri(long double corner1, long double corner2){
     return (corner1 * corner2) / 2;
 }
 
-double volcuboid(double length, double width, double height){
+long double volcuboid(long double length, long double width, long double height){
     return length * width * height;
 }
 
-double voltriprism(double length, double width, double height){
+long double voltriprism(long double length, long double width, long double height){
     return (length * width * height) / 2;
 }
