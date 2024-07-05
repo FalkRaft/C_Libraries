@@ -11,4 +11,4 @@ Such files include: [emath.h](https://github.com/FalkRaft/C_Libraries/blob/main/
    - Surface area of a Cylinder (areacylin(long double radius, long double height))
    - Pythagoras' Theorem for the longest sections of a rectangle (pytheo(long double x, long double y))
 
-NOTE: This is still currently under development.
+NOTE: This is still currently under development. If you want to download the compiled version of the header files, then it will only work for MacOS.
