@@ -1,6 +1,5 @@
 #ifndef EMATH_H
 #define EMATH_H
-#include <stdio.h>
 
 
 
